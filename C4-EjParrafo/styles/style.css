@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+#Encabezado {
+    background-color: gray;
+    display: flex;
+    justify-content: space-between;
+    gap:20px;
+    border:solid 2px;
+}
+
+#Encabezado h1 {
+    width: 40%;
+    font-weight: bold;
+    font-size: 24px;
+    text-decoration: underline;
+}
+
+#Encabezado img {
+    width: 60%;
+}
+
+#Contenido {
+    display: flex;
+    gap: 20px;
+    border:solid 2px;
+}
+
+#Contenido nav {
+    width: 20%;
+    border-right:solid 2px;
+}
+
+#Contenido #contenido-texto {
+    width: 80%;
+}
+
+.subrayado {
+    text-decoration: underline red wavy;
+}
+
+.cursiva {
+    font-style: italic;
+}
+
+.resaltado-verde {
+    background-color: #00ff00a3; /* verde claro */
+    font-weight: bold;
+}
+
+.resaltado-naranja {
+    background-color: #ffcc99;
+    font-weight: bold;
+}
+
+.resaltado-amarillo {
+    background-color: yellow;
+}
+
+.rojo {
+    color: red;
+}
+
+.azul {
+    color: #0099ff;
+}
+
+.tachado {
+    text-decoration: line-through;
+    color: gray;
+}
+
+#Pie {
+    border:solid 2px;
+}
