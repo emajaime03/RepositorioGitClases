@@ -1,0 +1,22 @@
+#contenedor {
+    width: 1000px;
+    background-color: gray;
+}
+#cabecera {
+    background-color: red;
+}
+#menu {
+    float: left;
+    width: 15%;
+    background-color: blue;
+}
+#contenido {
+    float: left;
+    width: 85%;
+    background-color: aqua;
+}
+#pie {
+    display: none;
+    clear: both;
+    background-color: chocolate;
+}

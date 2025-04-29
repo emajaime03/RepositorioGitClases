@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>HTML Agrupaciones</title>
+   </head>
+   <body>
+      <!-- Contenido del cuerpo del documento HTML -->
+      <header>
+         <nav>
+            <!-- Barra de navegación -->
+             <span>Acerca de:</span>
+             <ul>
+               <li>
+                  <a>Header</a>
+               </li>
+               <li>
+                  <a>Main</a>
+               </li>               
+               <li>
+                  <a>Footer</a>
+               </li>
+             </ul>
+         </nav>
+         <!-- Cabecera del documento -->
+          <h1>Agrupación semántica en HTML</h1>
+      </header>
+      <section>
+         <!-- Sección de contenido principal -->
+         <h2>🎯 ¿Qué es la agrupación semántica en HTML?</h2>
+         <p>La agrupación semántica en HTML se refiere al uso de etiquetas que no solo estructuran el contenido, sino que describen su propósito o significado dentro de la página. Esto hace que el código sea más claro tanto para los desarrolladores como para los navegadores, motores de búsqueda y tecnologías de asistencia (como lectores de pantalla).
+
+            Antes de HTML5, se usaban etiquetas genéricas como "div" y "span" para todo. Con HTML5 llegaron etiquetas semánticas que le dicen al navegador “qué es” cada parte del contenido, no solo “cómo se ve”.
+         </p>
+         <img src="../image1.jpg">   
+      </section>
+      <article>
+         <!-- Artículo o contenido independiente -->
+         <div>
+            <strong>Header</strong>
+            <p>
+               El header es la parte de arriba de la página. Ahí se pone el nombre del sitio, el logo y muchas veces el menú de navegación usando la etiqueta nav. Sirve para mostrar de qué trata la página y cómo moverse por ella.
+            </p>
+         </div>
+
+         <div>
+            <strong>Main</strong>
+            <p>
+               El main contiene el contenido principal de la página, lo que el usuario fue a buscar. Solo puede haber uno por página. Adentro del main se pueden usar otras etiquetas como section para dividir en bloques (por ejemplo, servicios, noticias, contacto) y article si hay contenido que tiene sentido por sí solo, como publicaciones o entradas de blog.
+            </p>
+         </div>
+
+         <div>
+            <strong>Footer</strong>
+            <p>
+               El footer va al final de la página. Se usa para poner información como el contacto, redes sociales, derechos de autor o enlaces extra. Es como la parte de cierre de la página o de una sección.
+            </p>
+         </div>
+      </article>
+      <aside>
+         <!-- Contenido relacionado o complementario al contenido principal -->
+         <div>
+            <span>Bloque de publicidad</span>
+            <img src="/image2.jpg">
+         </div>
+         <div>
+            <span>Más publicidad</span>
+            <img src="./Assets/extras/image3.jpg">
+         </div>
+      </aside>
+      <footer>
+         <!-- Pie de página -->
+         <section>
+            <strong>Seguinos en nuestras redes</strong>
+            <ul>
+               <li>Facebook</li>
+               <li>Instagram</li>
+            </ul>
+         </section>
+         <section>
+            <strong>Contactanos</strong>
+            <img src="./Assets/extras/image4.jpg">
+         </section>
+      </footer>
+   </body>
+</html>
